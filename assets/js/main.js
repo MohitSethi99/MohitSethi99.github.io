@@ -72,15 +72,6 @@
 		var vid = document.getElementById("bgVideo");
 		vid.playbackRate = 0.75;
 
-		$('#TextToCopy').click(function(){
-			var $temp = $("<input>");
-			$("body").append($temp);
-			$temp.val("mohitsethi.32@gmail.com").select();
-			document.execCommand("copy");
-			alert("Copied e-mail address to clipboard");
-			$temp.remove();
-		});
-
 		// Methods.
 			$main._show = function(id, initial) {
 
