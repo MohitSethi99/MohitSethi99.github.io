@@ -173,7 +173,14 @@
 							<li><a href="https://github.com/MohitSethi99/" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 							<li><a id="TextToCopy" href="#" class="icon fa fa-envelope"><span class="label">Mail</span></a></li>
 						</ul>
-						<p class="copyright">&copy; Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+
+						<p class="copyright"> Last modified on <span id="lastModified"></span>.</p>
+						<script>
+						document.getElementById("lastModified").innerHTML = document.lastModified.substr(0, 10);
+						</script>
+						<p></p>
+						<p class="copyright"> Logo designed and created by: <a href="https://www.fiverr.com/technohart" target="_blank">Technohart</a>.</p>
+						<p class="copyright">&copy; Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>.</p>
 					</footer>
 			</div>
 
